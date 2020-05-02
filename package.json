@@ -1,14 +1,14 @@
 {
   "name": "spa",
   "version": "0.0.1",
-  "description": "",
-  "author": "",
+  "description": "spa App",
+  "author": "Ezzaididev",
   "license": "MIT",
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
-    "start": "nest start",
+    "start": "node index.js",
     "start:dev": "nest start --watch",
     "start:debug": "nest start --debug --watch",
     "start:prod": "node dist/main",
